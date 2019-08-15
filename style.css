@@ -72,6 +72,11 @@ body {
   top: 90%;
 }
 
+.btn:active{ 
+  box-shadow: -5px 5px 15px -5px #f1f1f1;
+  transform: translateY(4px);  
+}
+
 .btn:nth-child(1)::before { 
   background: #3b5998;
 }
